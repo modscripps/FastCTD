@@ -1,0 +1,18 @@
+%Format: '%': for comment out, "name=1234"
+%TCPIP port for send and receive data
+TCPIPSocket.portnum=2342
+%SENSOR SETUP
+CTD.SerialNum=0058
+%Serial port for Fish and PCode
+CTD.CTDPortnum=14
+%Length of CTD data: 24 or 72 (has micro-cond)
+CTD.CTDlength=72
+PCode.PCodePortnum=12
+%Install Winch or not
+TCPIP4Winch
+dropnumBaseonWinch=1
+%FILES
+RecHeader.totalDrops=4
+fpData[0].runname=CTDdata
+fpData[0].path=/Users/Shared/CTDData/
+fpData[0].dataFileSize=5000000

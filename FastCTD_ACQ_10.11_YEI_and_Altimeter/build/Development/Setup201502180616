@@ -1,0 +1,28 @@
+%Format: '%': for comment out, "name=1234"
+%TCPIP port for send and receive data
+TCPIPSocket.portnum=2342
+%SENSOR SETUP
+CTD.SerialNum='0237'
+CTD.MicroCond='OPG-2'
+CTD.Compass=''
+%Display CTD data: 0=status, 1=engineer format, 2 = debug
+CTD.printData=0
+%with engineer display mode(1): rate is times per second -> even 16: 2 or 4 or 8
+CTD.engDispRate = 8
+%Serial port for Fish and PCode
+CTD.CTDPortName='/dev/tty.usbserial-FTTEFDC4A'
+CTD.speed=38400
+%Length of CTD data: 24 or 72 (has micro-cond)84 with accels
+%CTD.CTDlength=84
+CTD.CTDlength=112
+%engineer format rate (1): times per second -> even with 16: 2 or 4 or 8
+PCode.PCodePortName='/dev/tty.usbserial-FTTEFDC4B'
+PCode.speed=19200
+%Install Winch or not
+TCPIP4Winch
+dropnumBaseonWinch=1
+%FILES
+RecHeader.totalDrops=4
+Ascii_dataFile.runname='FCTD_TTide_Shelf7_'
+Ascii_dataFile.path='/Users/Shared/FCTD/RAW/'
+Ascii_dataFile.dataFileSize=5000000

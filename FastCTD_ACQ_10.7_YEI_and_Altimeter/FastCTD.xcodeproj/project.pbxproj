@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0E888707F3860B00E8F2F2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E888607F3860B00E8F2F2 /* CoreFoundation.framework */; };
+		2C4134A9075124310023FDCF /* CTD.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C4134A8075124310023FDCF /* CTD.c */; };
+		2C4134B0075124860023FDCF /* CTD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C4134AF075124860023FDCF /* CTD.h */; };
+		2C413579075297750023FDCF /* PCode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C413578075297750023FDCF /* PCode.h */; };
+		2C41357F075297F00023FDCF /* PCode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C41357E075297F00023FDCF /* PCode.c */; };
+		2C4A08C307A9659400004CC2 /* UDPUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C4A08C107A9659400004CC2 /* UDPUtils.h */; };
+		2C4A08C407A9659400004CC2 /* UDPUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A08C207A9659400004CC2 /* UDPUtils.c */; };
+		2C4A0AE007B4065B00004CC2 /* TCPIPUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C4A0ADF07B4065B00004CC2 /* TCPIPUtils.h */; };
+		2C4A0AE207B406A800004CC2 /* TCPIPUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A0AE107B406A800004CC2 /* TCPIPUtils.c */; };
+		2C69B90C0787552B00FDE1A0 /* Utilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C69B90A0787552B00FDE1A0 /* Utilities.h */; };
+		2C69B90D0787552B00FDE1A0 /* Utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C69B90B0787552B00FDE1A0 /* Utilities.c */; };
+		2C7EC1B80732F7410024A755 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7EC1B70732F7410024A755 /* IOKit.framework */; };
+		2C838D730729D06000872E76 /* FastCat_CTDdaq.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C838D6F0729D06000872E76 /* FastCat_CTDdaq.c */; };
+		2C838D740729D06000872E76 /* FileUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C838D700729D06000872E76 /* FileUtils.c */; };
+		2C838D750729D06000872E76 /* PThreadUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C838D710729D06000872E76 /* PThreadUtils.c */; };
+		2C838D760729D06000872E76 /* SerialPortUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C838D720729D06000872E76 /* SerialPortUtils.c */; };
+		2C838D9A0729D13A00872E76 /* FastCat_CTDdaq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C838D950729D13A00872E76 /* FastCat_CTDdaq.h */; };
+		2C838D9B0729D13A00872E76 /* FileUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C838D960729D13A00872E76 /* FileUtils.h */; };
+		2C838D9C0729D13A00872E76 /* Globals.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C838D970729D13A00872E76 /* Globals.h */; };
+		2C838D9D0729D13A00872E76 /* PThreadUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C838D980729D13A00872E76 /* PThreadUtils.h */; };
+		2C838D9E0729D13A00872E76 /* SerialPortUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C838D990729D13A00872E76 /* SerialPortUtils.h */; };
+		2CBFD7E4079EDE620096AAA4 /* Winch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CBFD7E2079EDE620096AAA4 /* Winch.h */; };
+		2CBFD7E5079EDE620096AAA4 /* Winch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFD7E3079EDE620096AAA4 /* Winch.c */; };
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* FastCTD.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* FastCTD.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* FastCTD.1 in CopyFiles */,
+				2C838D9A0729D13A00872E76 /* FastCat_CTDdaq.h in CopyFiles */,
+				2C838D9B0729D13A00872E76 /* FileUtils.h in CopyFiles */,
+				2C838D9C0729D13A00872E76 /* Globals.h in CopyFiles */,
+				2C838D9D0729D13A00872E76 /* PThreadUtils.h in CopyFiles */,
+				2C838D9E0729D13A00872E76 /* SerialPortUtils.h in CopyFiles */,
+				2C4134B0075124860023FDCF /* CTD.h in CopyFiles */,
+				2C413579075297750023FDCF /* PCode.h in CopyFiles */,
+				2C69B90C0787552B00FDE1A0 /* Utilities.h in CopyFiles */,
+				2CBFD7E4079EDE620096AAA4 /* Winch.h in CopyFiles */,
+				2C4A08C307A9659400004CC2 /* UDPUtils.h in CopyFiles */,
+				2C4A0AE007B4065B00004CC2 /* TCPIPUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2C0E888607F3860B00E8F2F2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		2C4134A8075124310023FDCF /* CTD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CTD.c; sourceTree = "<group>"; };
+		2C4134AF075124860023FDCF /* CTD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTD.h; sourceTree = "<group>"; };
+		2C413578075297750023FDCF /* PCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCode.h; sourceTree = "<group>"; };
+		2C41357E075297F00023FDCF /* PCode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PCode.c; sourceTree = "<group>"; };
+		2C4A08C107A9659400004CC2 /* UDPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPUtils.h; sourceTree = "<group>"; };
+		2C4A08C207A9659400004CC2 /* UDPUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UDPUtils.c; sourceTree = "<group>"; };
+		2C4A0ADF07B4065B00004CC2 /* TCPIPUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TCPIPUtils.h; sourceTree = "<group>"; };
+		2C4A0AE107B406A800004CC2 /* TCPIPUtils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = TCPIPUtils.c; sourceTree = "<group>"; };
+		2C69B90A0787552B00FDE1A0 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		2C69B90B0787552B00FDE1A0 /* Utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Utilities.c; sourceTree = "<group>"; };
+		2C7EC1B70732F7410024A755 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		2C838D6F0729D06000872E76 /* FastCat_CTDdaq.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = FastCat_CTDdaq.c; sourceTree = "<group>"; };
+		2C838D700729D06000872E76 /* FileUtils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = FileUtils.c; sourceTree = "<group>"; };
+		2C838D710729D06000872E76 /* PThreadUtils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = PThreadUtils.c; sourceTree = "<group>"; };
+		2C838D720729D06000872E76 /* SerialPortUtils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = SerialPortUtils.c; sourceTree = "<group>"; };
+		2C838D950729D13A00872E76 /* FastCat_CTDdaq.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FastCat_CTDdaq.h; sourceTree = "<group>"; };
+		2C838D960729D13A00872E76 /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		2C838D970729D13A00872E76 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		2C838D980729D13A00872E76 /* PThreadUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PThreadUtils.h; sourceTree = "<group>"; };
+		2C838D990729D13A00872E76 /* SerialPortUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SerialPortUtils.h; sourceTree = "<group>"; };
+		2CBFD7E2079EDE620096AAA4 /* Winch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Winch.h; sourceTree = "<group>"; };
+		2CBFD7E3079EDE620096AAA4 /* Winch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Winch.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* FastCTD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FastCTD; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0FF2C0290799A04C91782 /* FastCTD.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FastCTD.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7EC1B80732F7410024A755 /* IOKit.framework in Frameworks */,
+				2C0E888707F3860B00E8F2F2 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* FastCTD */ = {
+			isa = PBXGroup;
+			children = (
+				2C7EC1B90732F76E0024A755 /* External Framework and Libraries */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			comments = "This Fast CTD acquire:\n- Fish CTD data via serial port.\n- PCode (GPS) data via serial port.\n- Winch data via TCP/IP.\n\nThere is one thread take care task:\n- Get data (winch) from client and save into winch's buffer.\n- Read data (pressure) from fish CTD send to the client.";
+			name = FastCTD;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A0AE107B406A800004CC2 /* TCPIPUtils.c */,
+				2C4A0ADF07B4065B00004CC2 /* TCPIPUtils.h */,
+				2C4A08C107A9659400004CC2 /* UDPUtils.h */,
+				2C4A08C207A9659400004CC2 /* UDPUtils.c */,
+				2CBFD7E2079EDE620096AAA4 /* Winch.h */,
+				2CBFD7E3079EDE620096AAA4 /* Winch.c */,
+				2C69B90A0787552B00FDE1A0 /* Utilities.h */,
+				2C69B90B0787552B00FDE1A0 /* Utilities.c */,
+				2C41357E075297F00023FDCF /* PCode.c */,
+				2C413578075297750023FDCF /* PCode.h */,
+				2C4134AF075124860023FDCF /* CTD.h */,
+				2C4134A8075124310023FDCF /* CTD.c */,
+				2C838D950729D13A00872E76 /* FastCat_CTDdaq.h */,
+				2C838D960729D13A00872E76 /* FileUtils.h */,
+				2C838D970729D13A00872E76 /* Globals.h */,
+				2C838D980729D13A00872E76 /* PThreadUtils.h */,
+				2C838D990729D13A00872E76 /* SerialPortUtils.h */,
+				2C838D6F0729D06000872E76 /* FastCat_CTDdaq.c */,
+				2C838D700729D06000872E76 /* FileUtils.c */,
+				2C838D710729D06000872E76 /* PThreadUtils.c */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+				2C838D720729D06000872E76 /* SerialPortUtils.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* FastCTD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7EC1B90732F76E0024A755 /* External Framework and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2C0E888607F3860B00E8F2F2 /* CoreFoundation.framework */,
+				2C7EC1B70732F7410024A755 /* IOKit.framework */,
+			);
+			name = "External Framework and Libraries";
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* FastCTD.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* FastCTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E7279509FC7089000E8FBC /* Build configuration list for PBXNativeTarget "FastCTD" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCTD;
+			productInstallPath = "$(HOME)/bin";
+			productName = FastCTD;
+			productReference = 8DD76FB20486AB0100D96B5E /* FastCTD */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = F7E7279909FC7089000E8FBC /* Build configuration list for PBXProject "FastCTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* FastCTD */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* FastCTD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				2C838D730729D06000872E76 /* FastCat_CTDdaq.c in Sources */,
+				2C838D740729D06000872E76 /* FileUtils.c in Sources */,
+				2C838D750729D06000872E76 /* PThreadUtils.c in Sources */,
+				2C838D760729D06000872E76 /* SerialPortUtils.c in Sources */,
+				2C4134A9075124310023FDCF /* CTD.c in Sources */,
+				2C41357F075297F00023FDCF /* PCode.c in Sources */,
+				2C69B90D0787552B00FDE1A0 /* Utilities.c in Sources */,
+				2CBFD7E5079EDE620096AAA4 /* Winch.c in Sources */,
+				2C4A08C407A9659400004CC2 /* UDPUtils.c in Sources */,
+				2C4A0AE207B406A800004CC2 /* TCPIPUtils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7E7279609FC7089000E8FBC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = FastCTD;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F7E7279709FC7089000E8FBC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = FastCTD;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F7E7279809FC7089000E8FBC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = FastCTD;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+		F7E7279A09FC7089000E8FBC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+			};
+			name = Development;
+		};
+		F7E7279B09FC7089000E8FBC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F7E7279C09FC7089000E8FBC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E7279509FC7089000E8FBC /* Build configuration list for PBXNativeTarget "FastCTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E7279609FC7089000E8FBC /* Development */,
+				F7E7279709FC7089000E8FBC /* Deployment */,
+				F7E7279809FC7089000E8FBC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		F7E7279909FC7089000E8FBC /* Build configuration list for PBXProject "FastCTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E7279A09FC7089000E8FBC /* Development */,
+				F7E7279B09FC7089000E8FBC /* Deployment */,
+				F7E7279C09FC7089000E8FBC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,25 @@
+%Format: '%': for comment out, "name=1234"
+%TCPIP port for send and receive data
+TCPIPSocket.portnum=2342
+%SENSOR SETUP
+CTD.SerialNum='0057'
+CTD.MicroCond='71720-1'
+CTD.Compass=''
+%Display CTD data: 0=raw, 1=engineer format
+CTD.printData=1
+%Serial port for Fish and PCode
+CTD.CTDPortName='USA49W3b1P1.1'
+CTD.speed=38400
+%Length of CTD data: 24 or 72 (has micro-cond)84 with accels
+CTD.CTDlength=84
+PCode.printDatas=1
+PCode.PCodePortName='USA49W3b1P2.2'
+PCode.speed=9600
+%Install Winch or not
+TCPIP4Winch
+dropnumBaseonWinch=1
+%FILES
+RecHeader.totalDrops=4
+Ascii_dataFile.runname='FCTD'
+Ascii_dataFile.path='/Users/Shared/SWIRMJan08/'
+Ascii_dataFile.dataFileSize=20000000

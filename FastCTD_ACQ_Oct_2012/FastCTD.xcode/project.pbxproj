@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA520018CE5811CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA530018CE5811CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		08FB7793FE84155DC02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA520018CE5811CA2923,
+				014CEA530018CE5811CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 08FB7794FE84155DC02AAC07;
+			projectDirPath = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E,
+			);
+		};
+		08FB7794FE84155DC02AAC07 = {
+			children = (
+				F7E523D6081F015E00E68C9F,
+				2C7EC1B90732F76E0024A755,
+				08FB7795FE84155DC02AAC07,
+				C6A0FF2B0290797F04C91782,
+				1AB674ADFE9D54B511CA2CBB,
+			);
+			comments = "This Fast CTD acquire:\n- Fish CTD data via serial port.\n- PCode (GPS) data via serial port.\n- Winch data via TCP/IP.\n\nThere is one thread take care task:\n- Get data (winch) from client and save into winch's buffer.\n- Read data (pressure) from fish CTD send to the client.";
+			isa = PBXGroup;
+			name = FastCTD;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 = {
+			children = (
+				2C4A0AE107B406A800004CC2,
+				2C4A0ADF07B4065B00004CC2,
+				2C4A08C107A9659400004CC2,
+				2C4A08C207A9659400004CC2,
+				2CBFD7E2079EDE620096AAA4,
+				2CBFD7E3079EDE620096AAA4,
+				2C69B90A0787552B00FDE1A0,
+				2C69B90B0787552B00FDE1A0,
+				2C41357E075297F00023FDCF,
+				2C413578075297750023FDCF,
+				2C4134AF075124860023FDCF,
+				2C4134A8075124310023FDCF,
+				2C838D950729D13A00872E76,
+				2C838D960729D13A00872E76,
+				2C838D970729D13A00872E76,
+				2C838D980729D13A00872E76,
+				2C838D990729D13A00872E76,
+				2C838D6F0729D06000872E76,
+				2C838D700729D06000872E76,
+				2C838D710729D06000872E76,
+				08FB7796FE84155DC02AAC07,
+				2C838D720729D06000872E76,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB7796FE84155DC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = main.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+		1AB674ADFE9D54B511CA2CBB = {
+			children = (
+				8DD76FB20486AB0100D96B5E,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+//2C0
+//2C1
+//2C2
+//2C3
+//2C4
+		2C0E888607F3860B00E8F2F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2C0E888707F3860B00E8F2F2 = {
+			fileRef = 2C0E888607F3860B00E8F2F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C4134A8075124310023FDCF = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = CTD.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C4134A9075124310023FDCF = {
+			fileRef = 2C4134A8075124310023FDCF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C4134AF075124860023FDCF = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CTD.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C4134B0075124860023FDCF = {
+			fileRef = 2C4134AF075124860023FDCF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C413578075297750023FDCF = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = PCode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C413579075297750023FDCF = {
+			fileRef = 2C413578075297750023FDCF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C41357E075297F00023FDCF = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = PCode.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C41357F075297F00023FDCF = {
+			fileRef = 2C41357E075297F00023FDCF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C4A08C107A9659400004CC2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = UDPUtils.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C4A08C207A9659400004CC2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = UDPUtils.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C4A08C307A9659400004CC2 = {
+			fileRef = 2C4A08C107A9659400004CC2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C4A08C407A9659400004CC2 = {
+			fileRef = 2C4A08C207A9659400004CC2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C4A0ADF07B4065B00004CC2 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = TCPIPUtils.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C4A0AE007B4065B00004CC2 = {
+			fileRef = 2C4A0ADF07B4065B00004CC2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C4A0AE107B406A800004CC2 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = TCPIPUtils.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C4A0AE207B406A800004CC2 = {
+			fileRef = 2C4A0AE107B406A800004CC2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C69B90A0787552B00FDE1A0 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Utilities.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C69B90B0787552B00FDE1A0 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = Utilities.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C69B90C0787552B00FDE1A0 = {
+			fileRef = 2C69B90A0787552B00FDE1A0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C69B90D0787552B00FDE1A0 = {
+			fileRef = 2C69B90B0787552B00FDE1A0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C7EC1B70732F7410024A755 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = /System/Library/Frameworks/IOKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2C7EC1B80732F7410024A755 = {
+			fileRef = 2C7EC1B70732F7410024A755;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C7EC1B90732F76E0024A755 = {
+			children = (
+				2C0E888607F3860B00E8F2F2,
+				2C7EC1B70732F7410024A755,
+			);
+			isa = PBXGroup;
+			name = "External Framework and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D6F0729D06000872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = FastCat_CTDdaq.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D700729D06000872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = FileUtils.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D710729D06000872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = PThreadUtils.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D720729D06000872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = SerialPortUtils.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D730729D06000872E76 = {
+			fileRef = 2C838D6F0729D06000872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D740729D06000872E76 = {
+			fileRef = 2C838D700729D06000872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D750729D06000872E76 = {
+			fileRef = 2C838D710729D06000872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D760729D06000872E76 = {
+			fileRef = 2C838D720729D06000872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D950729D13A00872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = FastCat_CTDdaq.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D960729D13A00872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = FileUtils.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D970729D13A00872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Globals.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D980729D13A00872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = PThreadUtils.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D990729D13A00872E76 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SerialPortUtils.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2C838D9A0729D13A00872E76 = {
+			fileRef = 2C838D950729D13A00872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D9B0729D13A00872E76 = {
+			fileRef = 2C838D960729D13A00872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D9C0729D13A00872E76 = {
+			fileRef = 2C838D970729D13A00872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D9D0729D13A00872E76 = {
+			fileRef = 2C838D980729D13A00872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C838D9E0729D13A00872E76 = {
+			fileRef = 2C838D990729D13A00872E76;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2CBFD7E2079EDE620096AAA4 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Winch.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2CBFD7E3079EDE620096AAA4 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = Winch.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2CBFD7E4079EDE620096AAA4 = {
+			fileRef = 2CBFD7E2079EDE620096AAA4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2CBFD7E5079EDE620096AAA4 = {
+			fileRef = 2CBFD7E3079EDE620096AAA4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//2C0
+//2C1
+//2C2
+//2C3
+//2C4
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8DD76FA90486AB0100D96B5E = {
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E,
+				8DD76FAD0486AB0100D96B5E,
+				8DD76FAF0486AB0100D96B5E,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = FastCTD;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = FastCTD;
+			productInstallPath = "$(HOME)/bin";
+			productName = FastCTD;
+			productReference = 8DD76FB20486AB0100D96B5E;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76FAB0486AB0100D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E,
+				2C838D730729D06000872E76,
+				2C838D740729D06000872E76,
+				2C838D750729D06000872E76,
+				2C838D760729D06000872E76,
+				2C4134A9075124310023FDCF,
+				2C41357F075297F00023FDCF,
+				2C69B90D0787552B00FDE1A0,
+				2CBFD7E5079EDE620096AAA4,
+				2C4A08C407A9659400004CC2,
+				2C4A0AE207B406A800004CC2,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76FAC0486AB0100D96B5E = {
+			fileRef = 08FB7796FE84155DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		8DD76FAD0486AB0100D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+				2C7EC1B80732F7410024A755,
+				2C0E888707F3860B00E8F2F2,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76FAF0486AB0100D96B5E = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E,
+				2C838D9A0729D13A00872E76,
+				2C838D9B0729D13A00872E76,
+				2C838D9C0729D13A00872E76,
+				2C838D9D0729D13A00872E76,
+				2C838D9E0729D13A00872E76,
+				2C4134B0075124860023FDCF,
+				2C413579075297750023FDCF,
+				2C69B90C0787552B00FDE1A0,
+				2CBFD7E4079EDE620096AAA4,
+				2C4A08C307A9659400004CC2,
+				2C4A0AE007B4065B00004CC2,
+				F7E523D7081F015E00E68C9F,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8DD76FB00486AB0100D96B5E = {
+			fileRef = C6A0FF2C0290799A04C91782;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD76FB20486AB0100D96B5E = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = FastCTD;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+//C60
+//C61
+//C62
+//C63
+//C64
+		C6A0FF2B0290797F04C91782 = {
+			children = (
+				C6A0FF2C0290799A04C91782,
+			);
+			isa = PBXGroup;
+			name = Documentation;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		C6A0FF2C0290799A04C91782 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.man;
+			path = FastCTD.1;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//C60
+//C61
+//C62
+//C63
+//C64
+//F70
+//F71
+//F72
+//F73
+//F74
+		F7E523D6081F015E00E68C9F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = untitled;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F7E523D7081F015E00E68C9F = {
+			fileRef = F7E523D6081F015E00E68C9F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 08FB7793FE84155DC02AAC07;
+}

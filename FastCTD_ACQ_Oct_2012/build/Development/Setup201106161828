@@ -1,0 +1,30 @@
+%Format: '%': for comment out, "name=1234"
+%TCPIP port for send and receive data
+TCPIPSocket.portnum=2342
+%SENSOR SETUP
+CTD.SerialNum='0057'
+CTD.MicroCond='71720-1'
+CTD.Compass=''
+%Display CTD data: 0=status, 1=engineer format, 2 = debug (raw)
+%engineer format rate: times per second -> even with 16: 2 or 4 or 8
+CTD.printData=2
+CTD.engDispRate = 2
+%Serial port for Fish and PCode
+%CTD.CTDPortName='/dev/cu.USA49Wfd5P1.1'
+CTD.CTDPortName='/dev/tty.usbserial-FTTEF950A'
+CTD.speed=38400
+%Length of CTD data: 24 or 72 (has micro-cond)84 with accels
+CTD.CTDlength=84
+PCode.printDatas=1
+PCode.engDispRate = 4
+%PCode.PCodePortName='/dev/cu.USA49Wfd5P2.2'
+PCode.PCodePortName='/dev/tty.usbserial-FTTEF950B'
+PCode.speed=9600
+%Install Winch or not
+TCPIP4Winch
+dropnumBaseonWinch=1
+%FILES
+RecHeader.totalDrops=4
+Ascii_dataFile.runname='FCTD'
+Ascii_dataFile.path='/Users/Shared/ISWISEtestLab/'
+Ascii_dataFile.dataFileSize=20000000

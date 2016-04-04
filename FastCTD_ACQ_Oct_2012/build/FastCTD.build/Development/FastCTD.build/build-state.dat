@@ -1,0 +1,669 @@
+TFastCTD
+v3
+r1
+cCheck dependencies
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/main.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCat_CTDdaq.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FileUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PThreadUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/SerialPortUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/CTD.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PCode.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Utilities.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Winch.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/UDPUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/TCPIPUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c normal i386 c com.apple.compilers.llvmgcc42
+cLd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/FastCTD normal i386
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004C971DAF0000000000781330
+t1284971951
+s7869232
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC3E8CB0000000000000AF4
+t1287907531
+s2804
+
+N/System/Library/Frameworks/IOKit.framework/Headers/IOBSD.h
+c000000004CC3DE6600000000000006C2
+t1287904870
+s1730
+
+N/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004CC3E9840000000000012048
+t1287907716
+s73800
+
+N/System/Library/Frameworks/IOKit.framework/Headers/serial/IOSerialKeys.h
+c000000004CC3E8120000000000000B28
+t1287907346
+s2856
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004C8AD97D000000000017B260
+t1284168061
+s1552992
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c
+c000000004DFF8C440000000000005CA7
+t1308593220
+s23719
+i"CTD.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.h
+c000000004E007E2C0000000000000D90
+t1308655148
+s3472
+i"SerialPortUtils.h"
+i"Globals.h"
+i"Utilities.h"
+i"FileUtils.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c
+c000000004DF9FFD40000000000003A40
+t1308229588
+s14912
+i"FastCat_CTDdaq.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.h
+c000000004DF9FFD4000000000000085D
+t1308229588
+s2141
+i"Globals.h"
+i"SerialPortUtils.h"
+i"FileUtils.h"
+i"CTD.h"
+i"PCode.h"
+i"Winch.h"
+i"UDPUtils.h"
+i"TCPIPUtils.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c
+c000000004E00ED5D0000000000001F19
+t1308683613
+s7961
+i"FileUtils.h"
+i<unistd.h>
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.h
+c000000004DECDEBA00000000000003B3
+t1307369146
+s947
+i<sys/time.h>
+i<pthread.h>
+i<stdlib.h>
+i<stdio.h>
+i<ctype.h>
+i<errno.h>
+i<string.h>
+i<fcntl.h>
+i<sys/types.h>
+i<sys/stat.h>
+i"Globals.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Globals.h
+c000000004DECDEBA000000000000046E
+t1307369146
+s1134
+i<pthread.h>
+i<time.h>
+i<string.h>
+i<unistd.h>
+i<fcntl.h>
+i<errno.h>
+i<paths.h>
+i<termios.h>
+i<sysexits.h>
+i<sys/param.h>
+i<CoreFoundation/CoreFoundation.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/serial/IOSerialKeys.h>
+i<IOKit/IOBSD.h>
+i<mach/mach_init.h>
+i<mach/thread_policy.h>
+i<err.h>
+i<sys/time.h>
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c
+c000000004E007D6400000000000021FB
+t1308654948
+s8699
+i"PCode.h"
+i"Globals.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.h
+c000000004E00872C000000000000048E
+t1308657452
+s1166
+i"SerialPortUtils.h"
+i"Utilities.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c
+c000000004DFF83F0000000000000385D
+t1308591088
+s14429
+i"PThreadUtils.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.h
+c00000000479AF078000000000000060D
+t1201336440
+s1549
+i<mach/mach_init.h>
+i<stdio.h>
+i<errno.h>
+i<pthread.h>
+i<time.h>
+i<string.h>
+i<unistd.h>
+i<fcntl.h>
+i<paths.h>
+i<termios.h>
+i<sysexits.h>
+i<sys/param.h>
+i<CoreFoundation/CoreFoundation.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/serial/IOSerialKeys.h>
+i<IOKit/IOBSD.h>
+i<mach/thread_policy.h>
+i<err.h>
+i"Globals.h"
+i"FileUtils.h"
+i"SerialPortUtils.h"
+i"FastCat_CTDdaq.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c
+c000000004DFF83F00000000000000EA3
+t1308591088
+s3747
+i"SerialPortUtils.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.h
+c000000004DFF53320000000000000781
+t1308578610
+s1921
+i<stdlib.h>
+i<unistd.h>
+i<fcntl.h>
+i<termios.h>
+i<sysexits.h>
+i<CoreFoundation/CoreFoundation.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/serial/IOSerialKeys.h>
+i<stdio.h>
+i<sys/time.h>
+i<pthread.h>
+i<string.h>
+i<errno.h>
+i<paths.h>
+i<sys/param.h>
+i<IOKit/IOBSD.h>
+i<mach/mach_init.h>
+i<mach/thread_policy.h>
+i<err.h>
+i"Globals.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c
+c000000004DFF8CC000000000000011B6
+t1308593344
+s4534
+i"TCPIPUtils.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.h
+c000000004DECDEBA000000000000069D
+t1307369146
+s1693
+i<sys/types.h>
+i<netinet/in.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<errno.h>
+i<string.h>
+i<stdlib.h>
+i<stdio.h>
+i<unistd.h>
+i<netdb.h>
+i<fcntl.h>
+i<sysexits.h>
+i<CoreFoundation/CoreFoundation.h>
+i<sys/time.h>
+i<pthread.h>
+i<paths.h>
+i<sys/param.h>
+i<IOKit/IOBSD.h>
+i<mach/mach_init.h>
+i<mach/thread_policy.h>
+i<err.h>
+i"Globals.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c
+c000000004DFF8CDE00000000000005BE
+t1308593374
+s1470
+i"UDPUtils.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.h
+c00000000479AF078000000000000034D
+t1201336440
+s845
+i<sys/types.h>
+i<netinet/in.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<errno.h>
+i<string.h>
+i<stdlib.h>
+i<stdio.h>
+i<unistd.h>
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c
+c000000004DF0ED6A0000000000001E13
+t1307635050
+s7699
+i"Utilities.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.h
+c000000004DF0ED6A0000000000000223
+t1307635050
+s547
+i<strings.h>
+i<sys/time.h>
+i<stdio.h>
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c
+c000000004E0086F40000000000001E27
+t1308657396
+s7719
+i"Winch.h"
+i"Globals.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.h
+c000000004E007E2C0000000000000653
+t1308655148
+s1619
+i<CoreFoundation/CoreFoundation.h>
+i"SerialPortUtils.h"
+i"TCPIPUtils.h"
+i"Utilities.h"
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/FastCTD
+t1308683599
+s99684
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/CTD.o
+t1308683581
+s33244
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCTD.LinkFileList
+c000000004E00ED3C00000000000006D0
+t1308683580
+s1744
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCat_CTDdaq.o
+t1308683580
+s32288
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FileUtils.o
+t1308683599
+s14588
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PCode.o
+t1308683581
+s16148
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PThreadUtils.o
+t1308683580
+s25048
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/SerialPortUtils.o
+t1308683580
+s9944
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/TCPIPUtils.o
+t1308683581
+s8424
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/UDPUtils.o
+t1308683581
+s5108
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Utilities.o
+t1308683581
+s9096
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Winch.o
+t1308683581
+s15896
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/main.o
+t1308683580
+s39604
+
+N/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c
+c000000004E0085B600000000000055AB
+t1308657078
+s21931
+i<stdio.h>
+i<unistd.h>
+i"Globals.h"
+i"FileUtils.h"
+i"SerialPortUtils.h"
+i"FastCat_CTDdaq.h"
+i"PThreadUtils.h"
+i"CTD.h"
+i"PCode.h"
+i"Winch.h"
+i"UDPUtils.h"
+i"TCPIPUtils.h"
+i<sys/time.h>
+
+N/usr/include/arpa/inet.h
+c000000004BBD2CC60000000000001533
+t1270688966
+s5427
+
+N/usr/include/ctype.h
+c000000004BBD2CE90000000000002C18
+t1270689001
+s11288
+
+N/usr/include/err.h
+c000000004BBD2CE9000000000000110F
+t1270689001
+s4367
+
+N/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/usr/include/mach/mach_init.h
+c000000004BD247AA00000000000010A7
+t1272072106
+s4263
+
+N/usr/include/mach/thread_policy.h
+c000000004CC3DE680000000000001B42
+t1287904872
+s6978
+
+N/usr/include/netdb.h
+c000000004BBD2D1D000000000000307F
+t1270689053
+s12415
+
+N/usr/include/netinet/in.h
+c000000004CC3DE650000000000005414
+t1287904869
+s21524
+
+N/usr/include/paths.h
+c000000004BBD2CE90000000000001067
+t1270689001
+s4199
+
+N/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/usr/include/strings.h
+c000000004BBD2CE90000000000000DA4
+t1270689001
+s3492
+
+N/usr/include/sys/param.h
+c000000004CC3DE6700000000000027BE
+t1287904871
+s10174
+
+N/usr/include/sys/socket.h
+c000000004CC3DE6800000000000059BC
+t1287904872
+s22972
+
+N/usr/include/sys/stat.h
+c000000004CC3DE680000000000004A1D
+t1287904872
+s18973
+
+N/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/usr/include/sysexits.h
+c000000004BBD2CE90000000000001560
+t1270689001
+s5472
+
+N/usr/include/termios.h
+c000000004BBD2CE900000000000004D4
+t1270689001
+s1236
+
+N/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c
+r0
+
+CBuild AST from /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies836d54dd24b1b341^b9a876dd24b1b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/CTD.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c normal i386 c com.apple.compilers.llvmgcc42
+s330376380.937113
+e330376381.329494
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/CTD.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c2f18f0bc24b1b341^080456bd24b1b341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c0000000000000000^1297"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/CTD.o CTD.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/CTD.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/CTD.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCat_CTDdaq.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c normal i386 c com.apple.compilers.llvmgcc42
+s330376380.017528
+e330376380.576584
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCat_CTDdaq.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c89eb04bc24b1b341^b3cf93bc24b1b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c0000000000000000^1341"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCat_CTDdaq.o FastCat_CTDdaq.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FastCat_CTDdaq.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCat_CTDdaq.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FileUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c normal i386 c com.apple.compilers.llvmgcc42
+s330376413.425557
+e330376413.615131
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FileUtils.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.cac196ddd24b1b341^3ecd9ddd24b1b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c0000000000000000^1321"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FileUtils.o FileUtils.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/FileUtils.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FileUtils.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PCode.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c normal i386 c com.apple.compilers.llvmgcc42
+s330376380.993781
+e330376381.247717
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PCode.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.cf393febc24b1b341^56ba3fbd24b1b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c0000000000000000^1305"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PCode.o PCode.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PCode.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PCode.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PThreadUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c normal i386 c com.apple.compilers.llvmgcc42
+s330376380.576823
+e330376380.936616
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PThreadUtils.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.cc11994bc24b1b341^957ff9bc24b1b341^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c0000000000000000^1333"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PThreadUtils.o PThreadUtils.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/PThreadUtils.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/PThreadUtils.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/SerialPortUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c normal i386 c com.apple.compilers.llvmgcc42
+s330376380.703819
+e330376380.993572
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/SerialPortUtils.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.cd55ab4bc24b1b341^766efebc24b1b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c0000000000000000^1345"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/SerialPortUtils.o SerialPortUtils.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/SerialPortUtils.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/SerialPortUtils.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/TCPIPUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c normal i386 c com.apple.compilers.llvmgcc42
+s330376381.598770
+e330376381.865431
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/TCPIPUtils.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c8a7699bd24b1b341^7dceddbd24b1b341^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c0000000000000000^1325"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/TCPIPUtils.o TCPIPUtils.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/TCPIPUtils.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/TCPIPUtils.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/UDPUtils.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c normal i386 c com.apple.compilers.llvmgcc42
+s330376381.438584
+e330376381.598481
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/UDPUtils.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.cbd6f70bd24b1b341^b07599bd24b1b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c0000000000000000^1317"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/UDPUtils.o UDPUtils.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/UDPUtils.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/UDPUtils.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Utilities.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c normal i386 c com.apple.compilers.llvmgcc42
+s330376381.247942
+e330376381.438124
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Utilities.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.cc39d3fbd24b1b341^753a70bd24b1b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c0000000000000000^1321"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Utilities.o Utilities.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Utilities.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Utilities.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Winch.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c normal i386 c com.apple.compilers.llvmgcc42
+s330376381.329714
+e330376381.827460
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Winch.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c25ea55bd24b1b341^75e5d3bd24b1b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c0000000000000000^1305"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Winch.o Winch.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/Winch.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/Winch.o
+
+CCompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/main.o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c normal i386 c com.apple.compilers.llvmgcc42
+s330376380.016533
+e330376380.505257
+r1
+xCompileC
+xbuild/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/main.o
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c996404bc24b1b341^97a981bc24b1b341^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c0000000000000000^1301"CompileC build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/main.o main.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -gdwarf-2 -fvisibility=hidden -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/FastCTD.hmap -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/include -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources/i386 -I/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/DerivedSources -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -c /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/main.c -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/main.o
+
+CLd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/FastCTD normal i386
+s330376413.615445
+e330376413.677456
+r1
+xLd
+x/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/FastCTD
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/FastCTD5caf9ddd24b1b341^ab76addd24b1b341^---0#0#0#--709"Ld build/Development/FastCTD normal i386    cd /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21    /Developer/usr/bin/llvm-gcc-4.2 -arch i386 -L/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -F/Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development -filelist /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/FastCTD.build/Development/FastCTD.build/Objects-normal/i386/FastCTD.LinkFileList -framework IOKit -framework CoreFoundation -o /Users/opg/Documents/TestRun/OldApps/FastCTDMar20_2007RecompileJun7_2011Jun20_21/build/Development/FastCTD
+
